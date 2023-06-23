@@ -132,8 +132,8 @@ function Home() {
     Contact
   </Heading>
   <Text>Feel free to contact me:</Text>
-  <Text>Email: your-email@example.com</Text>
-  <Text>Phone: 123-456-7890</Text>
+  <Text>Email: devnandanraj@gmail.com</Text>
+  <Text>Phone: 7991132894</Text>
 </Box>
 </Box>
 </ChakraProvider>
