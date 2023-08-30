@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 import Devnandan_Raj_Resume from "../Assets/Devnandan-Raj-Sharma-Resume.pdf";
 export default function Hero() {
   return (
-    <Container maxW={"6xl"} margin="110px auto" id="Home">
+    <Container maxW={"6xl"} margin="110px auto" id="home" className="home-section">
       <Stack
         textAlign={"center"}
         align={"center"}
@@ -16,7 +16,7 @@ export default function Hero() {
           lineHeight={"110%"}
         >
           Hii 👋 I'm {`${" "}`}
-          <Text as={"span"} color={"blue.400"}>
+          <Text as={"span"} color={"blue.400"} id="user-detail-name">
             Devnandan Raj Sharma
           </Text>
         </Heading>
@@ -53,8 +53,10 @@ export default function Hero() {
             colorScheme={"orange"}
             bg={"blue.400"}
             _hover={{ bg: "red.500" }}
+            id="resume-button-2"
           >
             <a
+               id="resume-link-2"
               onClick={() =>
                 window.open(
                   "https://drive.google.com/file/d/1ElM0jh3ilAPRCeDVMniGCiojkMUExcgh/view?usp=drive_link"
