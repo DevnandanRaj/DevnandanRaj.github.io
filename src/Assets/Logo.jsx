@@ -8,7 +8,7 @@ const Logo = () => {
         style={{
           fontFamily: "cursive",
           fontSize: "25px",
-          margin: "0px 50px 0px 150px",
+          margin: "auto",
         }}
       >
         <span style={{ color: "orange" }}> &lt;</span>

@@ -11,10 +11,11 @@ const SkillCard = ({ icon, name }) => {
         transform: "scale(1.1)",
         transition: "all .2s ease-in-out",
       }}
+      
     >
-      <VStack>
-        <Image src={icon} w="80%" />
-        <Text fontSize="sm">{name}</Text>
+      <VStack class="skills-card">
+        <Image src={icon} w="80%"  class="skills-card-img"/>
+        <Text fontSize="sm"  class="skills-card-name">{name}</Text>
       </VStack>
     </GridItem>
   );

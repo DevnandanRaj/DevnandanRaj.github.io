@@ -26,10 +26,12 @@ const About = () => {
       direction={{ base: "column", xl: "row" }}
       alignItems="center"
       justifyContent="center"
-      id="About"
+      id="about"
+      class="about section"
     >
       <Flex flex={1} justifyContent="center">
         <Image
+          class="home-img"
           borderRadius="full"
           boxSize={imageBoxSize}
           src="https://avatars.githubusercontent.com/u/115460502?v=4"
@@ -53,6 +55,7 @@ const About = () => {
                 bg: "blue.400",
                 zIndex: -1,
               }}
+              class="about.about.section"
             >
               About Me
             </Text>
@@ -62,25 +65,17 @@ const About = () => {
             color={"gray.500"} // Adjusted text color to be more visible
             textAlign="left"
             position={"relative"}
+            id="user-detail-intro"
           >
-            Welcome to my portfolio! I'm Devnandan Raj Sharma, a passionate Full
-            Stack developer with a strong background in Computer Science
-            Engineering. I recently completed a rigorous 30-week Full Stack
-            Development course at Masai School, where I honed my skills and
-            expertise. My goal is to make a meaningful impact in the tech
-            industry by leveraging my knowledge and abilities to fulfill the
-            unique needs and goals of every company I collaborate with. I enjoy
-            working on challenging projects that push my boundaries and allow me
-            to deliver exceptional results. Collaboration is at the core of my
-            work style, and I thrive in diverse teams that foster open
-            communication. I believe that great achievements are the result of
-            collective efforts and the power of teamwork. I'm actively seeking
-            opportunities to contribute to well-established organizations that
-            offer a stable and supportive environment for continuous learning
-            and development. Thank you for visiting my portfolio, where I
-            showcase my projects, skills, and accomplishments. If you have any
-            inquiries or potential collaborations, please feel free to reach
-            out. Let's create something remarkable together!
+          Welcome to my portfolio! I'm Devnandan Raj Sharma, a passionate Full Stack developer with expertise in the MERN stack, HTML, CSS, and JavaScript. I completed a rigorous 30-week Full Stack Development course at Masai School, where I honed my skills in building practical solutions.
+
+My goal is to make a meaningful impact in the tech industry by collaborating with companies to fulfill their unique needs and goals. I thrive on challenging projects that require problem-solving and innovative thinking, delivering exceptional results.
+
+I value collaboration and believe in the power of teamwork. I enjoy working in diverse teams that foster open communication, enabling continuous learning and growth.
+
+In my portfolio, you'll find a showcase of my projects, demonstrating my utilization of various technologies and frameworks. I stay updated with the latest trends and advancements, constantly expanding my skill set.
+
+I'm actively seeking opportunities to contribute to well-established organizations, offering a stable and supportive environment for continuous learning and development. If you have inquiries or potential collaborations, feel free to reach out. Let's create something remarkable using cutting-edge technologies and innovative solutions!
           </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
             <Button

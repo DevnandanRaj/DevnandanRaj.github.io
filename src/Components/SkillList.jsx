@@ -246,7 +246,7 @@ const SkillsList = () => {
               gap={10}
             >
               {tools.map((skill, i) => (
-                <SkillCard key={i} {...skill} />
+                <SkillCard key={i} {...skill}  />
               ))}
             </Grid>
           </TabPanel>

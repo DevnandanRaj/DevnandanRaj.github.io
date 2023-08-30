@@ -19,7 +19,7 @@ import { TfiEmail } from "react-icons/tfi";
 
 const Contact = () => {
   return (
-    <Box mt="50px" color={useColorModeValue("black", "white")}>
+    <Box mt="50px" color={useColorModeValue("black", "white")} id="contact">
       <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
         <Text
           as={"span"}
