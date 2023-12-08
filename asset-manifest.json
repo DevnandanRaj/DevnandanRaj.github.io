@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.ec1f9a8a.js",
+    "main.js": "/static/js/main.a9164f12.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/BFC.png": "/static/media/BFC.d97b5c89c480be87db7d.png",
     "static/media/Foodies-paradise.png": "/static/media/Foodies-paradise.3cf163ba4513f09cfd21.png",
-    "static/media/Devnandan-Raj-Sharma-Resume.pdf": "/static/media/Devnandan-Raj-Sharma-Resume.bb8a8ce20e56b3caebc9.pdf",
     "static/media/RefreshClinic.png": "/static/media/RefreshClinic.8da2940da5109525ca68.png",
     "static/media/CodeShare.png": "/static/media/CodeShare.75c18f3e1059a1c23bf7.png",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.ec1f9a8a.js.map": "/static/js/main.ec1f9a8a.js.map",
+    "main.a9164f12.js.map": "/static/js/main.a9164f12.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ec1f9a8a.js"
+    "static/js/main.a9164f12.js"
   ]
 }
